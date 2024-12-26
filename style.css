@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+}
+
+:root{
+    --blue-white: #e4fcfc;
+    --blue-black: #051d30;
+    --blue: ##7cc0f6;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--blue-white); /* Caminho para sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a área, mantendo a proporção */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center; 
+}
+
+.home{
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center;
+    height: 100vh; /* Ocupa a altura total da janela */
+}
+
+.Entrar{
+    display: flex; /* Flexbox para facilitar a centralização */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    margin-top: -200px;
+    gap: 10px;
+}
+
+.home img{
+    width: 180px;
+}
+
+strong{
+    color: var(--blue-black);
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.Entrar button{
+    padding: 1px; /* Tamanho do botão */
+    width: 180px;
+    font-size: 16px; /* Tamanho do texto */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Indica que é clicável */
+    background: linear-gradient(to bottom, #7cc0f6, #051d30); /* Degradê */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animação suave */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.btn-social{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.btn-social button{
+    border: none;
+    background: linear-gradient(to bottom, #7cc0f6, #051d30); /* Degradê */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animação suave */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-social a{
+    color: #fff;
+}

@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+}
+:root{
+    --white: #fff;
+    --black: #000;
+    --red: #E74C3C;
+    --red-black: #EB001B;
+    --brown-black:#3E3017;
+    --brown-white:#A47E3C;
+    --green:#00FF00;
+    --blue-white: #e4fcfc;
+    --blue-black: #051d30;
+    --blue: #7cc0f6;
+}
+
+body{
+    margin-top: 50px;
+    height: 100vh;
+    background-color: var(--blue-white); /* Caminho para sua imagem */
+}
+
+.conteudo{
+    display: block;
+    text-align: center;
+}
+
+.conteudo img{
+   width: 70px;
+   margin-right: 80px;
+}
+
+.conteudo i{
+    color: var(--red);
+    cursor: pointer;
+}
+
+
+button{
+    padding: 1.5px; /* Tamanho do botão */
+    width: 50px;
+    font-size: 10px; /* Tamanho do texto */
+    color: var(--white); /* Cor do texto */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Indica que é clicável */
+    background: linear-gradient(to bottom, #7cc0f6, #051d30); /* Degradê */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animação suave */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.img-topo img{
+    width: 100px;
+}
+
+.img-home{
+    margin-top: 10px;
+    display: flex; /* Flexbox para facilitar a centralização */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.img-home img{
+    width: 220px;
+}
+
+.menu-desktop{
+    margin-top: 7px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main > .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: var(--blue-black);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    margin-right: 5px;
+}
+
+
+main nav.menu-desktop ul li{
+    display: inline-block;
+    font-size: 9px;
+}
+
+main nav.menu-desktop ul li strong{
+    background-color: var(--red-black);
+    margin-left: 4px;
+    color: var(--white);
+}
+
+main nav.menu-desktop ul li strong a{
+    background-color: var(--red-black);
+    margin-left: 4px;
+    color: var(--white);
+}
+/* linha */
+
+.linha {
+    width: 215px; /* Largura total */
+    margin-top: 10px;
+    margin-left: 90px;
+    height: 1px; /* Altura da linha */
+    background-color: var(--blue-black); /* Cor da linha */
+}
+
+.linha-2 {
+    width: 215px; /* Largura total */
+    margin-top: 15px;
+    margin-left: 90px;
+    height: 1px; /* Altura da linha */
+    background-color: var(--blue-black); /* Cor da linha */
+    position: relative;
+}
+
+/* linha */
+
+h2{
+    color: var(--blue-black);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.desktop{
+    margin-top: 10px;
+    margin-left: 80px;
+
+}
+.desktop .up{
+    width: 20px;
+    margin-left: 25px;
+}
+
+.desktop img{
+    width: 30px;
+    margin-left: 25px;
+
+}
+
+.img img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 82px;
+    margin-top: 20px;
+    box-shadow: rgba(193, 188, 188, 0.35) 0px 5px 15px;
+}
+
+.img{
+    margin-bottom: 20px;
+}
+
+.le h1{
+    color: var(--blue-black);
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    margin-left: 145px;
+    margin-top: -50px;
+}
+
+.le p{
+    font-size: 10px;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 145px;
+    margin-top: 8px;
+    display: inline;
+}
+
+.le button{
+    padding: 1.5px; /* Tamanho do botão */
+    width: 50px;
+    font-size: 10px; /* Tamanho do texto */
+    color: var(--white); /* Cor do texto */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Indica que é clicável */
+    background: linear-gradient(to bottom, #7cc0f6, #051d30); /* Degradê */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animação suave */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-left: 60px;
+}
